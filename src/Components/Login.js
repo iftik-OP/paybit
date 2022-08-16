@@ -106,7 +106,7 @@ export default function Login() {
             </div>
           </class>
           <class className="right_data">
-            <img src={logo} alt="NFT Art" />
+            <img className="nftArt" src={logo} alt="NFT Art" />
           </class>
         </section>
       </class>
