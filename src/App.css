@@ -120,6 +120,7 @@ body{
 .landing-pg{
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 .home-page{
   margin-top: 7.4%;
@@ -137,7 +138,7 @@ body{
 .leftDesign{
   margin-left: 10%;
   margin-top: 10%;
-  width: 50%;
+  width: 100vh;
 }
 
 
@@ -194,6 +195,7 @@ body{
 
 .nftArt{
   width: 100vh;
+  margin-right: 0px;
 }
 .right_data{
   margin-right: 0px;
@@ -202,6 +204,9 @@ body{
 
 @media screen and (max-width: 1000px) {
   .d-flex.justify-content-between{
+    flex-direction: column;
+  }
+  .landing-pg{
     flex-direction: column;
   }
   .right_data{

@@ -46,7 +46,7 @@ export default function Signup() {
       <class className="full-container2">
         {/* <Link></Link> */}
         <section className="d-flex justify-content-between">
-          <class className="left_data" style={{ width: "50%" }}>
+          <class className="left_data" style={{ width: "100%" }}>
             <form
               className="column g-3 needs-validation"
               oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'
@@ -140,7 +140,7 @@ export default function Signup() {
             </form>
           </class>
           <class className="right_data">
-            <img src={logo} alt="NFT Art" />
+            <img className="nftArt" src={logo} alt="NFT Art" />
           </class>
         </section>
       </class>
