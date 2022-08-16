@@ -1,0 +1,129 @@
+.logo{
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: rgba(229, 235, 255, 1);
+  font-weight: 600;
+}
+
+.home-container{
+  margin-top: 70%;
+}
+
+.alertBox2{
+  max-width: 50%;
+}
+
+
+
+.full-container2{
+  margin-top: 20%;
+}
+
+.heading h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 0;
+  color: rgba(35, 45, 82, 1);
+  letter-spacing: 18%;
+  font-weight: normal;
+  font-size: 40px;
+  width: 100%;
+}
+.login{
+  color: rgba(35, 45, 82, 1);
+  letter-spacing: 18%;
+  font-weight: normal;
+  font-size: 40px;
+  margin-left: 45%;
+  width: 100%;
+}
+
+.signup{
+  color: rgba(35, 45, 82, 1);
+  letter-spacing: 18%;
+  font-weight: normal;
+  font-size: 40px;
+  margin-left: 40%;
+  width: 100%;
+}
+
+.navbar.fixed-top{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(110, 90, 193, 1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body{
+  background-color: rgba(229 235, 255, 1);
+}
+
+
+
+.heading-cont{
+  padding: 50px;
+  margin-left: 10%;
+  width: 100%;
+
+}
+
+.form-container{
+  width: 55%;
+}
+
+
+.mb-4{
+  width: 50%;
+  margin-top: -1%;
+}
+
+.form-control{
+  width: 145%;
+  border: 2px solid rgba(110, 90, 193, 1);
+  border-radius: 3px;
+}
+
+.btn.btn-primary.my-5{
+  background-color: rgba(110, 90, 193, 1);
+  width: 45%;
+  margin-left: 50%;
+}
+
+.btn.btn-primary.my-4{
+  background-color: rgba(110, 90, 193, 1);
+  width: 45%;
+  margin-left: 14%;
+}
+
+.form-text2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40%;
+  /* justify-content: space-evenly; */
+  width: 100%;
+}
+
+.form-text3{
+  margin-left: 20%;
+}
+
+
+.left_data{
+  margin-left: 10%;
+  margin-top: 6%;
+}
+
+.right_data{
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  .d-flex.justify-content-between{
+    flex-direction: column;
+  }
+  .right_data{
+    margin-right: 0px;
+    margin-top: 10%;
+  }
+
+}
