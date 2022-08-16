@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { auth } from "../context/UserAuthContext";
 import { Alert } from "reactstrap";
+import logo from './rightnft.png';
 
 
 
@@ -105,7 +106,7 @@ export default function Login() {
             </div>
           </class>
           <class className="right_data">
-            <img src="/assets/rightnft.png" alt="NFTArt" />
+            <img src={logo} alt="NFT Art" />
           </class>
         </section>
       </class>

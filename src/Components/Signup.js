@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { Alert } from "reactstrap";
 import { auth } from "../context/UserAuthContext";
 import { NavLink } from "react-router-dom";
+import logo from './rightnft.png';
+
 
 export default function Signup() {
   const [registerEmail, setRegisterEmail] = useState("");
@@ -129,7 +131,7 @@ export default function Signup() {
                       color: "rgba(110, 90, 193, 1)",
                       fontWeight: "bold",
                     }}
-                    to="/"
+                    to="/login"
                   >
                     Log In
                   </NavLink>
@@ -138,7 +140,7 @@ export default function Signup() {
             </form>
           </class>
           <class className="right_data">
-            <img src="./right NFT.png" alt="NFT Art" />
+            <img src={logo} alt="NFT Art" />
           </class>
         </section>
       </class>
