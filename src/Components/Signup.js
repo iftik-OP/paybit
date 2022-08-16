@@ -34,7 +34,7 @@ export default function Signup() {
         registerEmail,
         registerPassword
       );
-      navigate("/");
+      navigate("/login");
     } catch (err) {
       console.log(err.message);
       setError(err.message);
