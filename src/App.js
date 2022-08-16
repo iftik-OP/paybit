@@ -8,6 +8,7 @@ import ProtectedRoute from "./context/ProtectedRoute";
 
 
 function App() {
+  localStorage.setItem('loggedIn', false);
   return (
     <>
         <Navbar />
